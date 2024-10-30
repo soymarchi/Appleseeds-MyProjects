@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(219, 196, 240);
+}
+#card-background{
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  width: 400px;
+  position: relative;
+  margin: 5% auto;
+  padding: 20px;
+  }
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    padding-top: 10px;
+  }
+  
+
+label {
+  color: gray;
+  display: flex;
+  font-size: 14px;
+}
+
+input{
+  width: 100%;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 2px solid rgb(143, 230, 216);
+  background: transparent;
+  padding-bottom: 10px;
+}
+
+input::placeholder{
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+h3{
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #0365d2, #07a2d4, #18c5c0, #00e2b0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#close{
+  position: absolute;
+  right: 20px;
+  border: none;
+  background: none;
+  color: #00e2b0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#create-account{
+  background: linear-gradient(to right, #0365d2, #07a2d4, #18c5c0, #00e2b0);
+  border: none;
+  color: white;
+  padding: 20px 100px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#bottom-card{
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  font-size: 14px;
+}
+
+#bottom-card p{
+  color: gray;
+}
+
+#bottom-card p a{
+  color: #5b87e5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px; 
+  appearance: none; 
+  width: 16px;
+  height: 16px; 
+  border: 2px solid rgb(143, 230, 216);
+  border-radius: 3px; 
+  outline: none; 
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgb(143, 230, 216); 
+}
+
+
+article #checkbox{
+  display: flex;
+  align-items: center; 
+  margin-top: 10px;
+  border: none; 
+}

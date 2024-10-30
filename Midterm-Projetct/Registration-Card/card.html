@@ -4,33 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <article>
+    <article id="card-background">
       <button id="close">X</button>
       <h3>Registration Form</h3>
       <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" value="" /><br />
-        <label for="email">Email address</label>
-        <input type="text" id="email" name="email" value="" /><br />
-        <label for="counrty">Country</label>
-        <input type="text" id="country" name="country" value="" /><br />
-        <label for="phone">Phone</label>
-        <input type="text" id="phone" name="phone" value="" /><br />
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" value="" /><br />
+        
+        <input type="text" id="name" name="name" placeholder="Name" value="" /><br />
 
-        <input type="checkbox" id="agree" />
-        <label for="agree"
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-          hic.</label
-        >
+        <input type="email" id="email" name="email" placeholder="Email" value="" /><br />
+
+        <input type="text" id="country" name="country" placeholder="Country" value="" /><br />
+
+        <input type="tel" id="phone" name="phone" placeholder="Phone" value="" /><br />
+
+        <input type="password" id="password" name="password" placeholder="Password" value="" /><br />
+
+        <article id="checkbox">
+          <input type="checkbox" class="checkbox" id="agree" />
+          <label for="agree">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, hic.</label>
+        </article>
+      
+        <button id="create-account">Create Account</button>
       </form>
-      <button id="create-account">Create Account</button>
-      <article>
+      
+        <article id="bottom-card">
         <p>Already have an account?<a href="google.com">Sing in</a></p>
-      </article>
+        </article>
     </article>
   </body>
 </html>
